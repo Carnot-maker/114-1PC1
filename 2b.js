@@ -13,16 +13,17 @@
 // ------------------------------------------
 
 // http 模組：用於創建 HTTP 伺服器
-const http = require('http');
+import http from 'http';
 
 // fs 模組 (File System)：用於讀取檔案系統中的文件
-const fs = require('fs');
+import fs from 'fs';
 
 // ejs 模組：用於渲染 EJS 模板引擎，將動態內容嵌入 HTML
-const ejs = require('ejs');
+
+import ejs from 'ejs';
 
 // path 模組：用於處理和解析文件路徑，提取副檔名
-const path = require('path');
+import path from 'path';
 
 // ==========================================
 // 創建並配置 HTTP 伺服器
